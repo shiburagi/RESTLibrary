@@ -94,7 +94,6 @@ new AsyncTask<Void, Void, Void>() {
 
 to set the request timeout milisecond,
 ``` java
-// Load image, decode it to Bitmap and return Bitmap synchronously
 RESTManager.getInstance().setTimeout(miliseconds);
 ```
 
