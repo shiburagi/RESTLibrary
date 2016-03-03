@@ -37,7 +37,7 @@ RESTManager.getInstance().requestRawSync(
         "{}", //JSON String
         new RESTManager.OnDataRequestListener<StringBuilder>() { // Interface
             /**
-             * The process is complete without any error.
+             * if the process is complete without any error.
              * @param object
              */
             @Override
