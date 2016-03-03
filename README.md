@@ -14,6 +14,11 @@ Android 2.0+ support
  * **APK**(https://drive.google.com/file/d/0Bw_drx3o3plaZzlLaHZzTDEtYVk/view?usp=sharing) 
 
 ## Including In Your Project
+This library is presented as a `.jar` file which you can include in the `libs/`
+folder of your application. You can download the latest version from the
+[GitHub downloads page](https://github.com/shiburagi/RESTLibrary-Android--BETA--/blob/master/restlibraryBETA0.0.4.22.jar).
+
+**or**,
 you can include it by **download this project** and **import /restlibrary** as **module**.
 
 ## Usage
