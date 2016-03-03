@@ -1,4 +1,5 @@
 # RESTLibrary
+This library I use in my previous project and current project and may got an issue and error. I will keep improve this library until it stable and useful.
 
 ## Features
  * send request with / without build in background process, method support (GET, POST, PUT, DELETE, HEAD, OPTIONS, TRACE)
