@@ -6,7 +6,7 @@
 Android 2.0+ support
 
 ## Including In Your Project
-you can include it by **download this project** and **import /restlibary** as **module**.
+you can include it by **download this project** and **import /restlibrary** as **module**.
 
 ## Usage
 
