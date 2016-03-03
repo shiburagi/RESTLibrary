@@ -1,5 +1,6 @@
 # RESTLibrary
-This library I use in my previous project and current project and may got an issue and error. I will keep improve this library until it stable and useful.
+This library I use in my previous and current android project and may got an issue and error. 
+I will keep improve this library until it stable and useful.
 
 ![Screenshot](https://github.com/shiburagi/RESTLibrary-BETA-/blob/master/screenshot/device-2016-03-03-172807.png)
 
@@ -26,7 +27,8 @@ or
 RESTManager.init(context, false);
 ```
 
-to send a request, **using build in background process**
+to send a request, 
+**using build in background process**
 ``` java
 RESTManager.getInstance().requestRawSync(
         new Path(
