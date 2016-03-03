@@ -17,7 +17,7 @@ or
 RESTManager.init(context, false);
 ```
 
-to send a request, **simple**
+to send a request, **using build in background process**
 ``` java
 RESTManager.getInstance().requestRawSync(
         new Path(
@@ -58,7 +58,7 @@ RESTManager.getInstance().requestRawSync(
 
 );
 ```
-or
+or **by own background process**
 ``` java
 new AsyncTask<Void, Void, Void>() {
     @Override
