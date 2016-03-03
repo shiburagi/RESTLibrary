@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RESTLibrary Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="ipaddress">IP address / URL</string>
+    <string name="send">Send</string>
+    <string name="erroroccured">An error occured.</string>
+    <string name="noactiveinternetconnection">No active internet connection.</string>
+    <string name="raw">raw (JSON)</string>
+    <string name="sendbyusingownthread">Send (Own Thread)</string>
+</resources>
