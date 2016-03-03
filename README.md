@@ -1,7 +1,7 @@
 # RESTLibrary
 This library I use in my previous project and current project and may got an issue and error. I will keep improve this library until it stable and useful.
 
-![Screenshot](https://github.com/shiburagi/RESTLibrary-BETA-/edit/master/screenshot/device-2016-03-03-172807.png)
+![Screenshot](https://github.com/shiburagi/RESTLibrary-BETA-/blob/master/screenshot/device-2016-03-03-172807.png)
 
 ## Features
  * send request with / without build in background process, method support (GET, POST, PUT, DELETE, HEAD, OPTIONS, TRACE)
