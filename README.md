@@ -5,6 +5,9 @@
 
 Android 2.0+ support
 
+## Including In Your Project
+you can include it by **download this project** and **import /restlibary** as **module**.
+
 ## Usage
 
 **NOTE:**　Initialize this line of code at the top of onCreate() in activity, or at the top of onCreateView() in fragment
