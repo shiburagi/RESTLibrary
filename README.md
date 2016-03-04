@@ -107,6 +107,53 @@ to set the request timeout milisecond,
 RESTManager.getInstance().setTimeout(miliseconds);
 ```
 
+This library include **GSON** in **dependency**, which means you can **send request in object representation(POJO)** rather than a plain string and **retrieve the response in object representation(POJO)**. Below the example how to use it,
+
+``` java
+Login login = new Login(username, password);
+
+RESTManager.getInstance().requestSync(
+        new Path(
+                null, // null if doesn't have local/dummy data in app
+                "http://jsonplaceholder.typicode.com/posts", // null if the REST API not ready yet
+                RESTManager.METHOD_GET //method of the request
+        ),
+        login, // POJO 
+        Login.class,
+        new RESTManager.OnDataRequestListener<Login>() { // Interface
+            /**
+             * if the process is complete without any error.
+             * @param object
+             */
+            @Override
+            public void onSuccess(Login object) {
+            }
+            /**
+             *  if an error occurred
+             * @param e
+             */
+            @Override
+            public void onFailed(Exception e) {
+            }
+            /**
+             * if the device doesn't have internet connection
+             */
+            @Override
+            public void onNoIntenetConnection() {
+            }
+            /**
+             * This method always execute.
+             * @param success
+             */
+            @Override
+            public void finish(boolean success) {
+            }
+        }
+
+);
+```
+
+
 ## License
 
     Copyright 2011-2016 Shiburagi
