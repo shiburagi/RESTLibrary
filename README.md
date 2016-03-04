@@ -23,13 +23,15 @@ you can include it by **download this project** and **import /restlibrary** as *
 
 ## Usage
 
-**NOTE:**　Initialize this line of code at the top of onCreate() in activity, or at the top of onCreateView() in fragment
+**NOTE:**　**Initialize** this line of code at the **top of onCreate() in main activity**, or at the **top of onCreateView() in main** fragment
 
 ``` java
+// parameter : context
 RESTManager.init(context);
 ```
 or
 ``` java
+// parameter : context and isExprimental status
 RESTManager.init(context, false);
 ```
 
@@ -85,9 +87,9 @@ new AsyncTask<Void, Void, Void>() {
             StringBuilder builder =
                     RESTManager.getInstance().retrieveRawData(
                             new Path(
-                                    null,
-                                    "http://jsonplaceholder.typicode.com/posts",
-                                    RESTManager.METHOD_GET
+                                    null, // null if doesn't have local/dummy data in app
+                                    "http://jsonplaceholder.typicode.com/posts", // null if the REST API not ready yet
+                                    RESTManager.METHOD_GET //method of the request
                             ),
                             new StringBuilder(raw)
                     );
