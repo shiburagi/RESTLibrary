@@ -152,7 +152,8 @@ RESTManager.getInstance().requestSync(
 
 );
 ```
-
+## Contact
+For any enquiries, please send an email to (tr32010@gmail.com). 
 
 ## License
 
