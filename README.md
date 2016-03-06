@@ -10,8 +10,8 @@ I will keep improve this library until it stable and useful.
 Android 2.0+ support
 
 ## Download
- * **JAR**(https://drive.google.com/file/d/0Bw_drx3o3plaMWlLaVBXOXcwZWc/view?usp=sharing)
- * **APK**(https://drive.google.com/file/d/0Bw_drx3o3plaZzlLaHZzTDEtYVk/view?usp=sharing) 
+ * **JAR** : (https://drive.google.com/file/d/0Bw_drx3o3plaMWlLaVBXOXcwZWc/view?usp=sharing)
+ * **APK** : (https://drive.google.com/file/d/0Bw_drx3o3plaZzlLaHZzTDEtYVk/view?usp=sharing) 
 
 ## Including In Your Project
 This library is presented as a `.jar` file which you can include in the `libs/`
@@ -116,7 +116,7 @@ RESTManager.getInstance().requestSync(
         new Path(
                 null, // null if doesn't have local/dummy data in app
                 "http://jsonplaceholder.typicode.com/posts", // null if the REST API not ready yet
-                RESTManager.METHOD_GET //method of the request
+                RESTManager.METHOD_POST //method of the request
         ),
         login, // POJO 
         Login.class,
